@@ -45,7 +45,7 @@ the command
 
 EXAMPLE\
 `java -jar devfinder-0.0.1-SNAPSHOT.jar`  
-`java -jar "C:\Users\magag\Desktop\webapp\devfinder\target\devfinder-0.0.1-SNAPSHOT.jar"`
+`java -jar "target\devfinder-0.0.1-SNAPSHOT.jar"`
 
 and it will run. At the moment of writing this, it is running on localhost:8080
 
