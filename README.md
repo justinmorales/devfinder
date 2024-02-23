@@ -50,3 +50,16 @@ EXAMPLE\
 and it will run. At the moment of writing this, it is running on localhost:8080
 
 ***
+
+### Common Application properties
+[Spring Documentation](https://docs.spring.io/spring-boot/docs/3.2.2/reference/htmlsingle/index.html#appendix.application-properties)
+
+In the file application.properties, you may configure different properties about your project as described in the 
+Spring Documentation link. You may also rename the file to application.yml to write the config in a different format.
+Be aware that the file application.properties in main and in test may be different.
+
+For this project my main will be on port 8080 for now, while the test is on port 8081
+written as\
+`server.port = 8080`
+
+If application.properties is empty then it will likely use default values.
